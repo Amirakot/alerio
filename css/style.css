@@ -1,357 +1,454 @@
+:root {
+  --secondary-color: #e65f78;
+}
 
-.navbar-light .navbar-nav .nav-link
-{color:black !important;}
+.navbar-light .navbar-nav .nav-link {
+  color: black !important;
+}
 
-.navbar-light .navbar-nav .nav-link:hover{
-    color:#e65f78 !important;
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #e65f78 !important;
 }
-.home
-{
-    background-image: url("../Arlo Imgs/1.jpg");
-    background-position: center center;
-    background-size: cover;
+.home {
+  background-image: url("../Arlo Imgs/1.jpg");
+  background-position: center center;
+  background-size: cover;
 }
-.home-layer
-{
-    background-color: rgba(0,0,0,0.6);
-    height:100%;
-    width:100%;
+.home-layer {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
 }
-.home
-{
-    background-image: url("../Arlo Imgs/1.jpg");
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
+.home {
+  background-image: url("../Arlo Imgs/1.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
 }
-.color
-{
-    color: #e65f78;
+.color {
+  color: #e65f78;
 }
-.fw-size
-{
-    font-size: 50px;
+.fw-size {
+  font-size: 50px;
 }
-.home .setting-icon
-{
-    top:20%;
+.home .setting-icon {
+  top: 20%;
+  z-index: 3;
 }
-.home-content  h3::after{
-content: "";
-animation-name: typing;
-animation-duration: 5s;
-animation-iteration-count: infinite;
-}
-.item
-{
-    overflow: hidden;
+.home-content h3::after {
+  content: "";
+  animation-name: typing;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
 .item {
-transition: all 3s;
+  overflow: hidden;
 }
-.item:hover img{
-    transform: scale(1.1);
+.item {
+  transition: all 3s;
+}
+.item:hover img {
+  transform: scale(1.1);
 }
 @keyframes typing {
-    0% {
-        content: "F";
-    }
-
-    1% {
-        content: " Fr";
-    }
-
-    2% {
-        content: " Fre";
-    }
-
-    3% {
-        content: " Free";
-    }
-
-    4% {
-        content: " Freel";
-    }
-
-    5% {
-        content: " Freela";
-    }
-
-    6% {
-        content: " Freelan";
-    }
-
-    7% {
-        content: " Freelanc";
-    }
-
-    8% {
-        content: " Freelance";
-    }
-
-    9% {
-        content: " Freelancer";
-    }
-
-    10% {
-        content: " Freelance";
-    }
-
-    11% {
-        content: " Freelanc";
-    }
-
-    13% {
-        content: " Freelan";
-    }
-
-    14% {
-        content: " Freela";
-    }
-
-    15% {
-        content: " Freel";
-    }
-
-    16% {
-        content: " Free";
-    }
-
-    17% {
-        content: " Fre";
-    }
-
-    18% {
-        content: " Fr";
-    }
-
-    19% {
-        content: " F";
-    }
-
-    20% {
-        content: "";
-    }
-
-    21% {
-        content: "W";
-    }
-
-    22% {
-        content: "We";
-    }
-
-    23% {
-        content: "Web";
-    }
-
-    24% {
-        content: "Web D";
-    }
-
-    25% {
-        content: "Web De";
-    }
-
-    25% {
-        content: "Web Dev";
-    }
-
-    26% {
-        content: "Web Deve";
-    }
-
-    27% {
-        content: "Web Devel";
-    }
-
-    28% {
-        content: "Web Develo";
-    }
-
-    29% {
-        content: "Web Develop";
-    }
-
-    30% {
-        content: "Web Develope";
-    }
-
-    31% {
-        content: "Web Developer";
-    }
-
-    32% {
-        content: "Web Develope";
-    }
-
-    33% {
-        content: "Web Develop";
-    }
-
-    34% {
-        content: "Web Develo";
-    }
-
-    35% {
-        content: "Web Devel";
-    }
-
-    36% {
-        content: "Web Deve";
-    }
-
-    37% {
-        content: "Web Dev";
-    }
-
-    38% {
-        content: "Web De";
-    }
-
-    39% {
-        content: "Web D";
-    }
-
-    40% {
-        content: "Web ";
-    }
-
-    41% {
-        content: "We";
-    }
-
-    42% {
-        content: "W";
-    }
-
-    43% {
-        content: "";
-    }
-    44% {
-        content: "P";
-    }
-
-    46% {
-        content: " Ph";
-    }
-
-    48% {
-        content: "pho";
-    }
-
-    50% {
-        content: " Phot";
-    }
-
-    52% {
-        content: "photo";
-    }
-
-    54% {
-        content: "Photog";
-    }
-
-    56% {
-        content: "Photogr";
-    }
-
-    58% {
-        content: "Photogra";
-    }
-
-    60% {
-        content: "Photograp";
-    }
-
-    62% {
-        content: " Photograph";
-    }
-
-    64% {
-        content: " Photographe";
-    }
-
-    66% {
-        content: " Photographer";
-    }
-
-    68% {
-        content: " Photographe";
-    }
-    72% {
-        content: " Photograph";
-    }
-    76% {
-        content: " Photograp";
-
-    }
-    78% {
-        content: " Photogra";
-    }
-
-    80% {
-        content: " Photogr";
-    }
-
-    82% {
-        content: " Photog";
-    }
-
-    84% {
-        content: " Photo";
-    }
-
-    86% {
-        content: "Phot";
-    }
-
-    94% {
-        content: " Pho";
-    }
-
-    96% {
-        content: "Ph";
-    }
-
-98% {
-        content: "p";
-    }
-
-    100% {
-        content: "";
-    }
-
-   
-
-    
-    }
-
-   .item img
-   {
-       width:100%;
-   }
-   
-.footer
-{
-    background-image: url("../Arlo Imgs/550x650.jpg");
-}    
-ul li{
-    list-style: none;
-}
-.coolor
-{
-    background-color: #e65f78;
-    border: none;
-}
-.layer2
-{
-    background-image: url("../Arlo Imgs/black.webp");
-}
-.itms  h2::after{
+  0% {
+    content: "F";
+  }
+
+  1% {
+    content: " Fr";
+  }
+
+  2% {
+    content: " Fre";
+  }
+
+  3% {
+    content: " Free";
+  }
+
+  4% {
+    content: " Freel";
+  }
+
+  5% {
+    content: " Freela";
+  }
+
+  6% {
+    content: " Freelan";
+  }
+
+  7% {
+    content: " Freelanc";
+  }
+
+  8% {
+    content: " Freelance";
+  }
+
+  9% {
+    content: " Freelancer";
+  }
+
+  10% {
+    content: " Freelance";
+  }
+
+  11% {
+    content: " Freelanc";
+  }
+
+  13% {
+    content: " Freelan";
+  }
+
+  14% {
+    content: " Freela";
+  }
+
+  15% {
+    content: " Freel";
+  }
+
+  16% {
+    content: " Free";
+  }
+
+  17% {
+    content: " Fre";
+  }
+
+  18% {
+    content: " Fr";
+  }
+
+  19% {
+    content: " F";
+  }
+
+  20% {
     content: "";
-    animation-name: typing;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    color: #e65f78;
-    }
+  }
+
+  21% {
+    content: "W";
+  }
+
+  22% {
+    content: "We";
+  }
+
+  23% {
+    content: "Web";
+  }
+
+  24% {
+    content: "Web D";
+  }
+
+  25% {
+    content: "Web De";
+  }
+
+  25% {
+    content: "Web Dev";
+  }
+
+  26% {
+    content: "Web Deve";
+  }
+
+  27% {
+    content: "Web Devel";
+  }
+
+  28% {
+    content: "Web Develo";
+  }
+
+  29% {
+    content: "Web Develop";
+  }
+
+  30% {
+    content: "Web Develope";
+  }
+
+  31% {
+    content: "Web Developer";
+  }
+
+  32% {
+    content: "Web Develope";
+  }
+
+  33% {
+    content: "Web Develop";
+  }
+
+  34% {
+    content: "Web Develo";
+  }
+
+  35% {
+    content: "Web Devel";
+  }
+
+  36% {
+    content: "Web Deve";
+  }
+
+  37% {
+    content: "Web Dev";
+  }
+
+  38% {
+    content: "Web De";
+  }
+
+  39% {
+    content: "Web D";
+  }
+
+  40% {
+    content: "Web ";
+  }
+
+  41% {
+    content: "We";
+  }
+
+  42% {
+    content: "W";
+  }
+
+  43% {
+    content: "";
+  }
+  44% {
+    content: "P";
+  }
+
+  46% {
+    content: " Ph";
+  }
+
+  48% {
+    content: "pho";
+  }
+
+  50% {
+    content: " Phot";
+  }
+
+  52% {
+    content: "photo";
+  }
+
+  54% {
+    content: "Photog";
+  }
+
+  56% {
+    content: "Photogr";
+  }
+
+  58% {
+    content: "Photogra";
+  }
+
+  60% {
+    content: "Photograp";
+  }
+
+  62% {
+    content: " Photograph";
+  }
+
+  64% {
+    content: " Photographe";
+  }
+
+  66% {
+    content: " Photographer";
+  }
+
+  68% {
+    content: " Photographe";
+  }
+  72% {
+    content: " Photograph";
+  }
+  76% {
+    content: " Photograp";
+  }
+  78% {
+    content: " Photogra";
+  }
+
+  80% {
+    content: " Photogr";
+  }
+
+  82% {
+    content: " Photog";
+  }
+
+  84% {
+    content: " Photo";
+  }
+
+  86% {
+    content: "Phot";
+  }
+
+  94% {
+    content: " Pho";
+  }
+
+  96% {
+    content: "Ph";
+  }
+
+  98% {
+    content: "p";
+  }
+
+  100% {
+    content: "";
+  }
+}
+
+.item img {
+  width: 100%;
+}
+
+.footer {
+  background-image: url("../Arlo Imgs/550x650.jpg");
+}
+ul li {
+  list-style: none;
+}
+.coolor {
+  background-color: #e65f78;
+  border: none;
+}
+.layer2 {
+  background-image: url("../Arlo Imgs/black.webp");
+}
+.itms h2::after {
+  content: "";
+  animation-name: typing;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  color: #e65f78;
+}
+.image-frame{
+    position: relative;
+}
+.image-frame::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 5%;
+    left: 5%;
+    border: 8px solid black;
+    position: absolute;
+    z-index: -1;
+}
+.about-title span{
+    color: var(--secondary-color);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.about-title h3{
+    font-size: 1.8rem;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* S T A R T   S E R V I C E S   S E C T I O N */
+.services {
+  background-color: #f9f9f9;
+}
+.services i {
+  color: var(--secondary-color);
+  font-size: 3rem;
+}
+.services h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+}
+.services .card {
+  box-shadow: 0 0 20px rgb(0 0 0 / 9%);
+}
+.services .card:hover {
+  box-shadow: 0 0 20px rgb(0 0 0 / 25%);
+}
+.services-footer {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.services-footer a {
+  text-decoration: none;
+  font-weight: 600;
+}
+.services-footer a::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  left: auto;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+.services-footer a:hover::after {
+  width: 100%;
+  left: 0;
+  right: auto;
+}
+.services-footer a::after {
+  content: "";
+  width: 0;
+  height: 1px;
+  position: absolute;
+  left: auto;
+  right: 0;
+  bottom: 0;
+  transition: width 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
+  background: black;
+}
+@media screen and (max-width: 768px) {
+  .my-card {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 20px 0 !important;
+  }
+}
+/* E N D   S E R V I C E S   S E C T I O N */
+
+/* S T A R T   P O R T F O L I O    S E C T I O N */
+.portfolio .nav-link {
+  color: black !important;
+}
+.portfolio .nav-link:hover {
+  color: var(--secondary-color) !important;
+}
+.portfolio .active {
+  color: var(--secondary-color) !important;
+}
+.portfolio img {
+  height: 20rem;
+  width: 100%;
+  transition: 1s all;
+}
+.portfolio .card {
+  border: none !important;
+}
+.portfolio img:hover {
+  transform: scale(1.3);
+}
+/* E N D   P O R T F O L I O    S E C T I O N */
