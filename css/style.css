@@ -1,0 +1,357 @@
+
+.navbar-light .navbar-nav .nav-link
+{color:black !important;}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#e65f78 !important;
+}
+.home
+{
+    background-image: url("../Arlo Imgs/1.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.home-layer
+{
+    background-color: rgba(0,0,0,0.6);
+    height:100%;
+    width:100%;
+}
+.home
+{
+    background-image: url("../Arlo Imgs/1.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.color
+{
+    color: #e65f78;
+}
+.fw-size
+{
+    font-size: 50px;
+}
+.home .setting-icon
+{
+    top:20%;
+}
+.home-content  h3::after{
+content: "";
+animation-name: typing;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+.item
+{
+    overflow: hidden;
+}
+.item {
+transition: all 3s;
+}
+.item:hover img{
+    transform: scale(1.1);
+}
+@keyframes typing {
+    0% {
+        content: "F";
+    }
+
+    1% {
+        content: " Fr";
+    }
+
+    2% {
+        content: " Fre";
+    }
+
+    3% {
+        content: " Free";
+    }
+
+    4% {
+        content: " Freel";
+    }
+
+    5% {
+        content: " Freela";
+    }
+
+    6% {
+        content: " Freelan";
+    }
+
+    7% {
+        content: " Freelanc";
+    }
+
+    8% {
+        content: " Freelance";
+    }
+
+    9% {
+        content: " Freelancer";
+    }
+
+    10% {
+        content: " Freelance";
+    }
+
+    11% {
+        content: " Freelanc";
+    }
+
+    13% {
+        content: " Freelan";
+    }
+
+    14% {
+        content: " Freela";
+    }
+
+    15% {
+        content: " Freel";
+    }
+
+    16% {
+        content: " Free";
+    }
+
+    17% {
+        content: " Fre";
+    }
+
+    18% {
+        content: " Fr";
+    }
+
+    19% {
+        content: " F";
+    }
+
+    20% {
+        content: "";
+    }
+
+    21% {
+        content: "W";
+    }
+
+    22% {
+        content: "We";
+    }
+
+    23% {
+        content: "Web";
+    }
+
+    24% {
+        content: "Web D";
+    }
+
+    25% {
+        content: "Web De";
+    }
+
+    25% {
+        content: "Web Dev";
+    }
+
+    26% {
+        content: "Web Deve";
+    }
+
+    27% {
+        content: "Web Devel";
+    }
+
+    28% {
+        content: "Web Develo";
+    }
+
+    29% {
+        content: "Web Develop";
+    }
+
+    30% {
+        content: "Web Develope";
+    }
+
+    31% {
+        content: "Web Developer";
+    }
+
+    32% {
+        content: "Web Develope";
+    }
+
+    33% {
+        content: "Web Develop";
+    }
+
+    34% {
+        content: "Web Develo";
+    }
+
+    35% {
+        content: "Web Devel";
+    }
+
+    36% {
+        content: "Web Deve";
+    }
+
+    37% {
+        content: "Web Dev";
+    }
+
+    38% {
+        content: "Web De";
+    }
+
+    39% {
+        content: "Web D";
+    }
+
+    40% {
+        content: "Web ";
+    }
+
+    41% {
+        content: "We";
+    }
+
+    42% {
+        content: "W";
+    }
+
+    43% {
+        content: "";
+    }
+    44% {
+        content: "P";
+    }
+
+    46% {
+        content: " Ph";
+    }
+
+    48% {
+        content: "pho";
+    }
+
+    50% {
+        content: " Phot";
+    }
+
+    52% {
+        content: "photo";
+    }
+
+    54% {
+        content: "Photog";
+    }
+
+    56% {
+        content: "Photogr";
+    }
+
+    58% {
+        content: "Photogra";
+    }
+
+    60% {
+        content: "Photograp";
+    }
+
+    62% {
+        content: " Photograph";
+    }
+
+    64% {
+        content: " Photographe";
+    }
+
+    66% {
+        content: " Photographer";
+    }
+
+    68% {
+        content: " Photographe";
+    }
+    72% {
+        content: " Photograph";
+    }
+    76% {
+        content: " Photograp";
+
+    }
+    78% {
+        content: " Photogra";
+    }
+
+    80% {
+        content: " Photogr";
+    }
+
+    82% {
+        content: " Photog";
+    }
+
+    84% {
+        content: " Photo";
+    }
+
+    86% {
+        content: "Phot";
+    }
+
+    94% {
+        content: " Pho";
+    }
+
+    96% {
+        content: "Ph";
+    }
+
+98% {
+        content: "p";
+    }
+
+    100% {
+        content: "";
+    }
+
+   
+
+    
+    }
+
+   .item img
+   {
+       width:100%;
+   }
+   
+.footer
+{
+    background-image: url("../Arlo Imgs/550x650.jpg");
+}    
+ul li{
+    list-style: none;
+}
+.coolor
+{
+    background-color: #e65f78;
+    border: none;
+}
+.layer2
+{
+    background-image: url("../Arlo Imgs/black.webp");
+}
+.itms  h2::after{
+    content: "";
+    animation-name: typing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    color: #e65f78;
+    }
