@@ -1,5 +1,6 @@
 :root {
   --secondary-color: #e65f78;
+  --RedColor: #e65f78;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -460,6 +461,11 @@ ul li {
 .news{
   padding-bottom: 90px;
   padding-top: 140px;
+}
+.container .title span{
+  color: var(--RedColor);
+  font-family: poppins;
+  font-weight: 500;
 }
 .news .title{
   margin-bottom: 87px;
