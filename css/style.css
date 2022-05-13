@@ -503,3 +503,33 @@ ul li {
 }
 /*   E N D   N E W S   S E C T I O N   */
 /* ***************************************************************************************** */
+
+
+
+
+
+
+
+/* START OF  CONTACT  */
+
+
+.xxx input{
+  width: 100%;
+
+}
+
+.xxx textarea{
+  width: 100%;
+   
+
+}
+
+.send button{
+  
+  padding: 10px 24px;
+
+  color: #e9ecef;
+  border: 2px solid; 
+  background-color: #e65f78;
+}
+/*  END     OF   CONTACT   */
